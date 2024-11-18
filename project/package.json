@@ -1,0 +1,32 @@
+{
+  "name": "fitness-monitoring-app",
+  "main": "src/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^3.0.0",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@nativescript/core": "~8.8.0",
+    "react": "^18.2.0",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nativescript/preview-cli": "1.0.13",
+    "@nativescript/stackblitz": "^0.0.8",
+    "@nativescript/tailwind": "^2.1.0",
+    "@nativescript/types-minimal": "~8.8.0",
+    "@nativescript/webpack": "~5.0.8",
+    "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",
+    "tailwindcss": "~3.4.0",
+    "typescript": "~5.4.0"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "preview": "setup-nativescript-stackblitz && ns preview",
+    "dev": "setup-nativescript-stackblitz && ns preview"
+  }
+}
